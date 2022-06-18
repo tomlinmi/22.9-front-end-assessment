@@ -154,6 +154,13 @@ form {
   border: 2px solid #6b1a22;
   padding: 10px;
 }
+form ul { 
+  padding: 0px; 
+}
+
+form li { 
+  display: flex; 
+}
 
 form label {
   font-weight: bold;
@@ -164,14 +171,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-}
-
-form ul { 
-  padding: 0px; 
-}
-
-form li { 
-  display: flex; 
+  
 }
 
 form button {
