@@ -157,12 +157,21 @@ form {
 
 form label {
   font-weight: bold;
+  flex:1;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+}
+
+form ul { 
+  padding: 0px; 
+}
+
+form li { 
+  display: flex; 
 }
 
 form button {
@@ -211,7 +220,7 @@ footer p {
     }
     .group{
       flex-direction: row;
-      justify-content:flex-end ;
+      
     }
   
     header nav {
