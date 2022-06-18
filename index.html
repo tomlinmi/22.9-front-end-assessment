@@ -32,19 +32,17 @@
 
     <main>
       <!-- Join -->
-      <section id="join">
-        <div class = "group col">
-          <div class = "group center">
-          <div class = "item item-double">
+      <section id="join" class="group">
+        <div class = "item-double">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         </div>
               <!-- Add join form here -->
-              <div class ="item">
+        <div class ="item">
         <h2>Find your perfect match</h2> 
         <form>  
-              
-            <div>
-              <label for="email">Email</label>
+         <ul>
+          <li>     
+             <label for="email">Email</label>
               <input id="email" 
               type="text" 
               name="email"
@@ -52,37 +50,36 @@
               required
                      />
               
-            </div>
-            <div>
+          </li>
+            <li>
               <label for="password">Create a password</label>
               <input id="password" 
               type="text" 
               name="password"
               required
               /> 
-            </div>
-            <div>
+            </li>
+            <li>
               <label for="username">Username</label>
               <input id="username" 
               type="text" 
               name="username"
                 required
               /> 
-            </div>
-            <div>
-              <label for="I am a ...">I am a ...</label>
-              <select name="I am a..." id="I am a..." size="1">
+            </li>
+            <li>
+              <label for="gender">I am a ...</label>
+              <select name="gender" id="I am a..." size="1">
                 <option value="female">female</option>
                 <option value="male">male</option>
                 <option value="other">other</option>
               </select>
-              </div>
+            </li>
+         </ul>
           <button type="join">Join</button>
         </form>
-        </div>
-        </div>
-      </div>
-          
+      
+    </div>       
       </section>
 
       <!-- About -->
